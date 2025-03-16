@@ -40,4 +40,4 @@ df['EMAIL'] = df['EMAIL'].str.strip()
 df['NAME'] = df['NAME'].str.strip()
 
 
-df.to_csv('output/cleaned_data.csv', index=False)
+df.to_csv('transform/cleaned_data.csv', index=False)
