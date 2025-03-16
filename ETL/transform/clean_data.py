@@ -38,4 +38,6 @@ df['EMAIL'] = df['EMAIL'].apply(lambda x: x.split('@')[0] + '@gmail.com' if '@' 
 df['EMAIL'] = df['EMAIL'].apply(lambda x: x.split('.')[0] + '@gmail.com' if '@' not in x else x)
 df['EMAIL'] = df['EMAIL'].str.strip()
 df['NAME'] = df['NAME'].str.strip()
-df
+
+
+df.to_csv('output/cleaned_data.csv', index=False)
