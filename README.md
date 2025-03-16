@@ -8,4 +8,4 @@ This repository contains daily practice exercises related to Snowflake, ETL, and
 - **DBT/** - Transformations and modeling using DBT.
 - **ETL/** - Extract, Transform, Load processes.
 - **Snowflake/** - Hands-on Snowflake queries and concepts.
-- **cloning and time travel/** - Snowflake cloning and time travel exercises.
+- **Cloning and Time Travel/** - Snowflake cloning and time travel exercises. 
