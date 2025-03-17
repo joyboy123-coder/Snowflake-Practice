@@ -20,3 +20,5 @@ SELECT
          ELSE 'Marketing' END AS department,
     uniform(30000, 100000, random()) AS salary
 FROM TABLE(GENERATOR(ROWCOUNT => 500));
+
+SELECT * FROM EMPLOYEES;
