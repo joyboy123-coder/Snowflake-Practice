@@ -4,7 +4,7 @@
 This folder contains scripts and examples demonstrating how cloning works in Snowflake.  
 Cloning is useful for creating **backups, testing, and comparing data changes over time** without duplicating storage.
 
-## 📂 Repository Structure
+## 📂 Repository Structure  
 cloning and time travel
 └── cloning
 ├── code
@@ -23,11 +23,11 @@ Copy code
 This folder contains the **SQL scripts** necessary to create tables, insert data, and perform cloning in Snowflake.
 
 ### 📜 Scripts Folder  
-📌 Contains scripts that execute **cloning operations** and other essential processes.
+📌 Contains scripts that execute **cloning operations** and other essential processes.  
 - `cloning_scripts.sql` → **Script to clone the `employees` table.**
 
 ### 📜 Table Folder  
-📌 Contains scripts to **create and populate tables** before cloning.
+📌 Contains scripts to **create and populate tables** before cloning.  
 - `employee_table.sql` → **Creates the `employees` table and inserts sample data.**
 
 ### 📜 README (Inside `code/`)  
