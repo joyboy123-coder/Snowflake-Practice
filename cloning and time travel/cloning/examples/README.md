@@ -39,5 +39,5 @@ emp_id	emp_name	salary
 🎯 Key Takeaways
 ✅ Cloning in Snowflake captures the table at a point in time.
 ✅ Changes in the original table do NOT affect the cloned table.
-✅ Useful for backups, audits, and debugging historical data
+✅ Useful for backups, audits, and debugging historical data.
 
