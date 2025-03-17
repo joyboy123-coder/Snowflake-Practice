@@ -1,26 +1,47 @@
+# 📁 Cloning in Snowflake - Complete Guide  
+
+## 📌 Overview  
+This folder contains scripts and examples demonstrating how **cloning works in Snowflake**.  
+Cloning is useful for creating **backups, testing, and comparing data changes over time** without duplicating storage.  
+
+## 📂 Repository Structure  
+cloning and time travel
+└── cloning
+├── code
+│ ├── scripts
+│ ├── table
+│ ├── readme.md
+├── examples
+│ ├── backup_example.sql
+│ ├── readme.md
+├── readme.md
+
+pgsql
+Copy code
 
 ## 📂 Code Folder  
-This folder contains the SQL scripts necessary to create tables, insert data, and perform cloning in Snowflake.  
+This folder contains the **SQL scripts** necessary to create tables, insert data, and perform cloning in **Snowflake**.  
 
 ### 📜 Scripts Folder  
-📌 Contains scripts that execute cloning operations and other essential processes.  
-- `cloning_scripts.sql` → Script to clone the employees table.  
+📌 Contains scripts that execute **cloning operations** and other essential processes.  
+- `cloning_scripts.sql` → **Script to clone the `employees` table**.  
 
 ### 📜 Table Folder  
-📌 Contains scripts to create and populate tables before cloning.  
-- `employee_table.sql` → Creates the employees table and inserts sample data.  
+📌 Contains scripts to **create and populate tables** before cloning.  
+- `employee_table.sql` → **Creates the `employees` table and inserts sample data**.  
 
 ### 📜 README (Inside `code/`)  
-📌 Explains the purpose of each script and how to use them.  
+📌 Explains the **purpose of each script** and how to use them.  
 
 ## 📂 Examples Folder  
 This folder provides **practical examples** to demonstrate the impact of cloning and how data remains unchanged after modifications to the original table.  
 
 ### 📜 Example File  
-- `backup_example.sql` → Demonstrates what happens when the original `employees` table is updated after cloning. It includes queries to compare the cloned and original table.  
+- `backup_example.sql` → **Demonstrates what happens when the original `employees` table is updated after cloning**.  
+  It includes queries to compare the cloned and original table.  
 
 ### 📜 README (Inside `examples/`)  
-📌 Explains what this example demonstrates and the expected outcome.  
+📌 Explains **what this example demonstrates and the expected outcome**.  
 
 ## 🚀 How to Use This Repository  
 1️⃣ **Set up the `employees` table**  
@@ -30,7 +51,7 @@ This folder provides **practical examples** to demonstrate the impact of cloning
    - Run `cloning_scripts.sql` (inside `code/scripts/`) to create a clone (`employees_cloned`).  
 
 3️⃣ **Modify the original table and compare**  
-   - Run `backup_example.sql` (inside `examples/`) to modify the `employees` table and compare it with its clone.  
+   - Run `backup_example.sql` (inside `examples/`) to **modify the `employees` table and compare it with its clone**.  
 
 ## 🎯 Key Takeaways  
 ✅ **Cloning in Snowflake captures the table at a specific point in time.**  
@@ -38,4 +59,5 @@ This folder provides **practical examples** to demonstrate the impact of cloning
 ✅ **Useful for backups, testing, and data auditing.**  
 
 ## 📝 Final Notes  
-This repository provides a hands-on approach to understanding **cloning in Snowflake**. The examples and scripts included here will help users experiment with cloning and compare how data changes over time. 🚀  
+This repository provides a **hands-on approach** to understanding **cloning in Snowflake**.  
+The **examples and scripts** included here will help users experiment with cloning and compare how data cha
