@@ -20,7 +20,7 @@ connection_parameters = {
 session = Session.builder.configs(connection_parameters).create()
 
 # Read cleaned data
-df = pd.read_csv(r"C:\Users\yamin\Snowflake-Practice\ETL\transform\cleaned_data.csv")
+df = pd.read_csv("ETL/transform/cleaned_data.csv")
 df.columns = df.columns.str.upper()
 
 # Load data into Snowflake
