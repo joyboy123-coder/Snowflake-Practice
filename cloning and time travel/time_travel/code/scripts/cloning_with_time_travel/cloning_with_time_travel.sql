@@ -6,7 +6,7 @@ USE SCHEMA SPORTS_SCHEMA;
 SELECT * FROM sports_table;
 
 -- 2️⃣ Assume a row is deleted (AT 3:30 PM )
-DELETE FROM sports_table WHERE MATCH_OUTCOME = 'Loss'
+DELETE FROM sports_table WHERE MATCH_OUTCOME = 'Loss';
 
 -- 3️⃣ Check data after deletion
 SELECT * FROM sports_table;
