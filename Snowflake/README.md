@@ -74,12 +74,5 @@ Snowflake stores the output of previously executed queries, allowing instant ret
 
 ---
 
-## 📂 Next Steps  
-- Explore **Indexing Strategies** for further optimization.  
-- Experiment with **Query Pruning** and **Partitioning Techniques**.  
-- Optimize **Warehouses & Auto Scaling** in Snowflake.  
-
----
-
 ## 🚀 Final Note  
 This project demonstrates practical **performance optimization techniques** in Snowflake. Implementing these best practices ensures **faster queries, lower costs, and better scalability.**  
