@@ -1,4 +1,4 @@
-﻿# 🚀 **Snowflake ETL & Cloning Practice**
+﻿# 🚀 **Snowflake Optimization ETL & Cloning Practice**
 
 This repository contains **hands-on projects** related to **Snowflake, ETL, and Cloning & Time Travel**.  
 It covers **real-world implementations**, best practices, and query optimizations to improve data handling in Snowflake.  
