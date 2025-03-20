@@ -10,7 +10,7 @@ It covers **real-world implementations**, best practices, and query optimization
 | Folder Name | Description |
 |------------|-------------|
 | **ETL/** | End-to-end Extract, Transform, Load process using Snowflake. |
-| **Snowflake/** | Query optimization, performance tuning, and best practices in Snowflake. |
+| **Snowflake Optimization/** | Query optimization, performance tuning, and best practices in Snowflake. |
 | **Cloning and Time Travel/** | Data versioning, replication, and recovery using Snowflake’s Cloning & Time Travel. |
 
 ---
